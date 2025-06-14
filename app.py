@@ -5,6 +5,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import os # 用於讀取環境變數，更安全
 
+SENDER_EMAIL = os.environ.get('SENDER_EMAIL')
+APP_PASSWORD = os.environ.get('APP_PASSWORD')
 # --- 1. 建立 Flask 應用程式實例 ---
 app = Flask(__name__)
 
