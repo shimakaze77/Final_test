@@ -5,22 +5,14 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import os # 用於讀取環境變數，更安全
 
-SENDER_EMAIL = os.environ.get('SENDER_EMAIL')
-APP_PASSWORD = os.environ.get('APP_PASSWORD')
 # --- 1. 建立 Flask 應用程式實例 ---
 app = Flask(__name__)
 
 # --- 2. 寄件者 Gmail 帳號與應用程式密碼設定 ---
 # 警告：直接將密碼寫在程式碼中有安全風險。
 # 推薦做法是使用環境變數。您可以取消註解下面兩行來使用環境變數。
-# SENDER_EMAIL = os.environ.get('MY_GMAIL_ACCOUNT')
-# SENDER_PASSWORD = os.environ.get('MY_GMAIL_APP_PASSWORD')
-
-# 為了方便您直接執行，這裡先使用您提供的資料。
-# 在執行前，請確認這是您要使用的帳號和應用程式密碼。
-SENDER_EMAIL = "chingkai55@gmail.com"
-# 請注意：這是 Google 的「應用程式密碼」，不是您的登入密碼
-APP_PASSWORD = "fztt bloe umzf oyej" 
+SENDER_EMAIL = os.environ.get('SENDER_EMAIL')
+APP_PASSWORD = os.environ.get('APP_PASSWORD')
 
 # --- 3. HTML 網頁模板 ---
 # 將 HTML 程式碼作為多行字串儲存在變數中
