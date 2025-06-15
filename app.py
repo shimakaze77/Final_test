@@ -113,7 +113,7 @@ def send_e_card(sender_name, sender_email_display, recipient_name, recipient_ema
     <html>
         <body style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
             <div style="max-width: 600px; margin: auto; background: white; border: 1px solid #ddd; border-radius: 10px; overflow: hidden;">
-                <img src="https://images.unsplash.com/photo-1546487922-54d95a9a4b37?q=80&w=1771&auto=format&fit=crop" style="width: 100%;" alt="賀卡圖片">
+                <img src="https://plus.unsplash.com/premium_photo-1661661109721-1a94f1be7b6d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="width: 100%;" alt="賀卡圖片">
                 <div style="padding: 20px 30px;">
                     <h2 style="color: #333;">親愛的 {recipient_name}，</h2>
                     <p style="font-size: 16px; color: #555; line-height: 1.6;">{message_content.replace('\\n', '<br>')}</p>
