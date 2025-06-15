@@ -54,7 +54,7 @@ FORM_TEMPLATE = """
 <body>
     <div class="container">
         <!-- 顯示賀卡圖片 -->
-        <img src="https://images.unsplash.com/photo-1546487922-54d95a9a4b37?q=80&w=1771&auto=format&fit=crop" 
+        <img src="https://plus.unsplash.com/premium_photo-1661661109721-1a94f1be7b6d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
              alt="賀卡圖片" class="card-image"
              onerror="this.onerror=null;this.src='https://placehold.co/600x300/f0f0f0/333?text=圖片載入失敗';">
         
